@@ -1,9 +1,6 @@
 # Summary
 * [简介](README.md)
-   * [设计与开发](content/intro/design-develop.md)
-   * [前后端区别](content/intro/front-back.md)
-   * [未来一年](content/intro/next-year.md)
-
+   * [关于Web](content/intro/design-develop.md)
 
 * [前端](content/front/index.md)
   * [Html基础](content/front/html/index.md)
