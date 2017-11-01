@@ -64,7 +64,7 @@
 
 > 运维：项目部署上线
 
-<iframe src="https://redrock.team/MagicLoop/index.php/addon/InquiryExam/InquiryExam/test?stuId=2015211535" width="587px" height="1035px" frameborder="0" scrolling="no"> </iframe>
+[实际效果示例][15]
 
 > 产品：项目线上运营
 
@@ -83,7 +83,7 @@
 > 前端：数据展示、页面交互
 
 <iframe src="../../content/intro/d3/index.html" width="700px" height="600px" frameborder="0" scrolling="no"> </iframe>
-<iframe src="http://hexgl.bkcore.com/play/" width="700x" height="600px" frameborder="0" scrolling="no"> </iframe>
+<iframe src="https://wx.idsbllp.cn/game/" width="700x" height="600px" frameborder="0" scrolling="no"> </iframe>
 
 > 后端：数据处理、功能逻辑
  
@@ -118,3 +118,4 @@
   [12]: ../../content/intro/img/login.png
   [13]: ../../content/intro/img/login-backend.png
   [14]: https://redrock.team/joinus2017/
+  [15]: https://redrock.team/MagicLoop/index.php/addon/InquiryExam/InquiryExam/test
