@@ -82,8 +82,10 @@
 #### 3.前后端
 > 前端：数据展示、页面交互
 
+###### 为简单的素材添加有趣的交互
 <iframe src="../../content/intro/d3/index.html" width="700px" height="600px" frameborder="0" scrolling="no"> </iframe>
-<iframe src="https://wx.idsbllp.cn/game/" width="700x" height="600px" frameborder="0" scrolling="no"> </iframe>
+
+[HexGL][16] : H5打造的赛车游戏
 
 > 后端：数据处理、功能逻辑
  
@@ -119,3 +121,4 @@
   [13]: ../../content/intro/img/login-backend.png
   [14]: https://redrock.team/joinus2017/
   [15]: https://redrock.team/MagicLoop/index.php/addon/InquiryExam/InquiryExam/test
+  [16]: http://hexgl.bkcore.com/play/
