@@ -12,6 +12,7 @@
 
 
 * [后端](content/back/index.md)
-   * [Java基础](content/back/java/index.md) 
+   * [Java入门基础](content/back/java/JavaFirst.md) 
    * [大作业](content/back/greatAssignment/greatAssignment.md) 
+
 
