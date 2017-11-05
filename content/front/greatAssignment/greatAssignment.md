@@ -5,7 +5,7 @@
 ### 基础要求
 
 * 做一个PC端的今日头条
-* 样式请参考今日头条官网（https://www.toutiao.com/）
+* 样式请参考今日头条官网（https://www.toutiao.com/
 
 
 * 代码规范，要有注释
