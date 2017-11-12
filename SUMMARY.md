@@ -22,6 +22,9 @@
     - [Java入门基础](content/back/java/JavaFirst.md) 
     - [面向对象](content/back/java/object.md)
 - 作业
-  - [前端大作业](content/front/greatAssignment/greatAssignment.md)
-  - [后端大作业](content/back/greatAssignment/greatAssignment.md)
+  - 小作业
+    - [第三次课作业](content/homework/thirdHomework.md)
+  - 大作业
+    - [前端大作业](content/front/greatAssignment/greatAssignment.md)
+    - [后端大作业](content/back/greatAssignment/greatAssignment.md)
 
