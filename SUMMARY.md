@@ -14,13 +14,14 @@
     - [CSS盒模型](content/front/css/boxModel.md)
     - [浮动与BFC](content/front/css/BFC.md)
   - [JS]()
-  - [作业]()
-    - [大作业](content/front/greatAssignment/greatAssignment.md)
+    - [JS入门](content/front/js/JS_first.md)
 
 
 - [后端](content/back/index.md)
   - [Java]()
     - [Java入门基础](content/back/java/JavaFirst.md) 
-  - [作业]()
-    - [大作业](content/back/greatAssignment/greatAssignment.md)  
+    - [面向对象](content/back/java/object.md)
+- 作业
+  - [前端大作业](content/front/greatAssignment/greatAssignment.md)
+  - [后端大作业](content/back/greatAssignment/greatAssignment.md)
 
