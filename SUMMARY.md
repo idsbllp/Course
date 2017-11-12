@@ -14,7 +14,7 @@
     - [CSS盒模型](content/front/css/boxModel.md)
     - [浮动与BFC](content/front/css/BFC.md)
   - [JS]()
-    - [JS入门](content/front/js/JS_first.md)
+    - [JS入门](content/front/js/jsFirst.md)
 
 
 - [后端](content/back/index.md)

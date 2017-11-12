@@ -113,21 +113,18 @@
   pageHeight = window.innerHeight;
   console.log(pageWidth);
   console.log(pageHeight);
-  ```
 
-
-  var result = prompt("What is your name? ", ""); 
-  	if (result !== null) {
-       	alert("Welcome, " + result); 
-      } 
+   var result = prompt("What is your name? ", ""); 
+    	if (result !== null) {
+   		alert("Welcome, " + result); 
+    	}  
 
   ```
 
-  ​
 
 ### 如何使用Javascript
 
-+ <script>元素
++ script标签
 + 嵌入代码与外部文件
 
 ### Javascript基本概念
@@ -145,7 +142,7 @@
 + 数据类型(隐式转换
 
   ```javascript
-  (!(~+[])+{})[--[~+""][+[]]*[~+[]]+~~!+[]]+({}+[])[[~!+[]*~+[]]]
+  (!(~+[])+{})[--~+""][~+[]]+~~!+[]]+({}+[])[[~!+[]~+[]]]
   ```
 
 -   Undefined
@@ -191,8 +188,6 @@
 
     ![](../img/4.png)
 
-    ​
-
   - 相等操作符与赋值操作符
 
   - 条件操作符
@@ -225,8 +220,6 @@
     } else {
       alert("Other"); 
     }
-    ```
-
 
     switch (i) {
       case 25:          
@@ -241,9 +234,8 @@
       default:          
         alert("Other"); 
     } 
-    ​```
-    
-    ​
+    ```
+
 
 + 函数
 
@@ -286,4 +278,5 @@
 + 安装Git
 + 注册Github
 + 使用Git
+
 
