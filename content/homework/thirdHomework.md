@@ -67,7 +67,7 @@
 ### 作业
 
 - 游戏要求
-  - 样例已经给出，先自己跑一下代码,弄明白这个游戏是什么。                 (<ahref="https://github.com/RedrockTeam/Course/raw/master/content/back/back_demo/nineth_demo/demo.zip">样例下载地址</a>)
+  - 样例已经给出，先自己跑一下代码,弄明白这个游戏是什么。(<a href="https://github.com/RedrockTeam/Course/raw/master/content/back/back_demo/nineth_demo/demo.zip">样例下载地址</a>)
   
   - 在这份代码的基础上要求自己添加一个技能类,技能类里面有属性:技能名字、技能效果, 技能名字技能效果自己定,英雄可以随机使用自己的技         能,但是一定要在对战的时候体现出来。
     
