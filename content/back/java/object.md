@@ -807,12 +807,14 @@ final
       father编译时的类型是Father
       ```
 
-- 运行时类型，由实际赋给该变量的对象决定；
+    - 运行时类型，由实际赋给该变量的对象决定；
 
-    ```
-    father = new Child();
-    运行时father类型是Child类型
-    ```
+      ```
+      father = new Child();
+      运行时father类型是Child类型
+      ```
+
+      ​
 
 - 在编译时类型与运行时类型**不一致**时，就可能出现——多态
 
@@ -827,7 +829,6 @@ final
 - 注意
 
   - 当父类引用变量指向子类对象时，被引用对象的类型决定了调用谁的成员方法，引用变量类型决定可调用的方法。如果子类中没有覆盖该方法，那么会去父类中寻找。
-
 
 
 ---
@@ -892,24 +893,27 @@ final
       {
           return number;
       }
-  ```
-
-
-  }
+   }
   注意到该Employee类没有什么不同，尽管该类是抽象类，但是它仍然有3个成员变量，7个成员方法和1个构造方法。
-  ```java
-public class AbstractDemo
-  {
-     public static void main(String [] args)
-     {
-        /* 以下是不允许的，会引发错误 */
-        Employee e = new Employee("George W.", "Houston, TX", 43);
-   
-        System.out.println("\n Call mailCheck using Employee reference--");
-        e.computePay();
-      }
- }
+
   ```
+
+
+   ```java
+  public class AbstractDemo
+    {
+       public static void main(String [] args)
+       {
+          /* 以下是不允许的，会引发错误 */
+          Employee e = new Employee("George W.", "Houston, TX", 43);
+     
+          System.out.println("\n Call mailCheck using Employee reference--");
+          e.computePay();
+        }
+   }
+   ```
+
+  ​
 
   ​
 
@@ -1127,18 +1131,18 @@ public class AbstractDemo
               public void log();
           }
 
-          class Mysql implements DataBase{
+      class Mysql implements DataBase{
 
-              @Override
-              public void connect(DataBase dataBase) {
-                  System.out.println("链接到了mysql");
-              }
+        @Override
+        public void connect(DataBase dataBase) {
+          System.out.println("链接到了mysql");
+        }
 
-              @Override
-              public void log() {
-                  
-              }
-          }
+        @Override
+        public void log() {
+
+        }
+      }
       ```
 
       ​
