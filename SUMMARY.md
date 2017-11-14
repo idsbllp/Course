@@ -19,7 +19,8 @@
 
 - [后端](content/back/index.md)
   - [Java]()
-    - [Java入门基础](content/back/java/JavaFirst.md) 
+    - [java语法基础](content/back/java/Basic.md)
+    - [流程控制](content/back/java/ProcessControl.md)
     - [面向对象](content/back/java/object.md)
 - 作业
   - 小作业
