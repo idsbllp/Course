@@ -15,6 +15,7 @@
     - [浮动与BFC](content/front/css/BFC.md)
   - [JS]()
     - [JS入门](content/front/js/jsFirst.md)
+    - [DOM&BOM](content/front/DOM&BOM/Class4.md)
 
 
 - [后端](content/back/index.md)
@@ -25,6 +26,7 @@
 - 作业
   - 小作业
     - [第三次课作业](content/homework/thirdHomework.md)
+    - [第四次课作业](content/homework/FouthHomework.md)
   - 大作业
     - [前端大作业](content/front/greatAssignment/greatAssignment.md)
     - [后端大作业](content/back/greatAssignment/greatAssignment.md)
