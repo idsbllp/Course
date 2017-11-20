@@ -16,6 +16,7 @@
   - [JS]()
     - [JS入门](content/front/js/jsFirst.md)
     - [DOM&BOM](content/front/DOM&BOM/Class4.md)
+    - [基本类型与引用类型，函数，作用域链](content/front/class of kjj/kjj.md)
 
 
 - [后端](content/back/index.md)
