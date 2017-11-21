@@ -7,6 +7,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
 public class tools {
 
     public static Map<String,ArrayList> getCollageToMajorMap() throws IOException {
@@ -60,7 +61,7 @@ public class tools {
         return builder.toString();
     }
 
-    public static Map<String, ArrayList> getClassList(String ClassID) throws IOException {
+    public static Map<String, ArrayList<String>> getClassList(String ClassID) throws IOException {
         URL url = new URL("http://jwzx.cqupt.edu.cn/jwzxtmp/showBjStu.php?bj=" + ClassID);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         BufferedReader reader = new BufferedReader(
@@ -76,10 +77,12 @@ public class tools {
         reader.close();
         connection.disconnect();
         String PageData = builder.toString();
-        Pattern pattern = Pattern.compile("<tr><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td></tr>");
+        Pattern pattern=Pattern.compile("<tr><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td>");
         Matcher matcher = pattern.matcher(PageData);
-        Map<String, ArrayList> students = new LinkedHashMap<>();
+        Map<String, ArrayList<String>> students = new LinkedHashMap<>();
         while (matcher.find()) {
+            if(matcher.group(1).equals("No."))
+                continue;
             ArrayList<String> temp = new ArrayList<>();
             for (int i = 1; i <= 10; i++) {
                 if (i==3)
@@ -91,7 +94,7 @@ public class tools {
         return students;
     }
 
-    public static Map getMajorToClassList() throws IOException {
+    public static Map<String,List<String>> getMajorToClassList() throws IOException {
         String data = getData("http://jwzx.cqupt.edu.cn/jwzxtmp/pubBjsearch.php?action=bjStu");
         Pattern pattern = Pattern.compile("<tr><td>(.*?)</td>(.*?)</tr>");
         Matcher matcher = pattern.matcher(data);
