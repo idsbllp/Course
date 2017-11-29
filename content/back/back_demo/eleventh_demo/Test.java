@@ -1,11 +1,11 @@
 import java.io.BufferedReader;
-        import java.io.IOException;
-        import java.io.InputStreamReader;
-        import java.net.HttpURLConnection;
-        import java.net.URL;
-        import java.util.*;
-        import java.util.regex.Matcher;
-        import java.util.regex.Pattern;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Test {
     public static void main(String[] args) throws IOException {
@@ -183,24 +183,15 @@ class Student {
     private String name;
     private String stuId;
 
-    public String getGender() {
-        return gender;
-    }
+    public String getGender() {return gender;}
 
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
+    public void setGender(String gender) {this.gender = gender;}
 
-    public String getName() {
-        return name;
-    }
+    public String getName() {return name;}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public void setName(String name) {this.name = name;}
 
-    public String getStuId() {
-        return stuId;
+    public String getStuId() {return stuId;
     }
 
     public void setStuId(String stuId) {

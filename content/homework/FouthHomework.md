@@ -24,7 +24,7 @@
 
 提示：进阶内容可以去找找慕课学习一个
 
-![轮播示例](./exmaple.png)
+![轮播示例](./iamge/exmaple.png)
 
 ## 作业要求
 
@@ -70,9 +70,9 @@
 
 - 更进阶的一个小要求:尽量使用数据结构和算法的部分知识来优化你的算法,使得你的程序的查询速度越快越好(到这里你就已经实现了一个非常简单的数据库)
 
-其中获取教务在线数据的类已经给出在tools.java里面,下面是对于工具类的说明,请直接调用,由于数据来自于内网,所以使用时需要使用连接内网来进行数据的获取,注意工具类已经被封装好,请不要擅自改动(当然可以自己改一改来爬取别的东西->比如照片)
+其中获取教务在线数据的类已经给出在Test.java 文件中的 Test类里面,下面是对于工具类的说明,请直接调用,由于数据来自于内网,所以使用时需要使用连接内网来进行数据的获取,注意工具类已经被封装好,请不要擅自改动(当然可以自己改一改来爬取别的东西->比如照片)
 
-附:工具类地址:https://github.com/RedrockTeam/Course/tree/master/content/back/back_demo/eleventh_demo
+附:工具类地址:https://github.com/RedrockTeam/Course/tree/master/content/back/back_demo/eleventh_demo/Test.java
 
 ### 工具类的几个方法说明
 
@@ -137,6 +137,8 @@ public static String getData(String strUrl) throws IOException
 提高要求即是能够通过上面你构造的这个容器,然后输入学号就能够查询到这个同学的数据,并打印在屏幕上面
 
 //优化那个的话,可以考虑通过建索引等方法...
+
+附:作业答案地址:https://github.com/RedrockTeam/Course/tree/master/content/back/back_demo/eleventh_demo/Test.jav
 
 
 
