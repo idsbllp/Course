@@ -1,4 +1,4 @@
-# WebRock-Task4
+# 第四次上课作页
 
 #前端
 
@@ -72,7 +72,7 @@
 
 其中获取教务在线数据的类已经给出在tools.java里面,下面是对于工具类的说明,请直接调用,由于数据来自于内网,所以使用时需要使用连接内网来进行数据的获取,注意工具类已经被封装好,请不要擅自改动(当然可以自己改一改来爬取别的东西->比如照片)
 
-附:工具类地址:https://github.com/RedrockTeam/Course/blob/master/content/homework/tools.java
+附:工具类地址:https://github.com/RedrockTeam/Course/tree/master/content/back/back_demo/eleventh_demo
 
 ### 工具类的几个方法说明
 
@@ -85,13 +85,13 @@ public static Map<String,ArrayList> getCollageToMajorMap() throws IOException
 该方法返回的是学院到专业的一个HashMap,其中键为学院名,对应的值为包括了该学院所有专业的一个ArrayList
 
 ```java
-public static ArrayList<String> getCollageList() throws IOException
+public static List<String> getCollageList() throws IOException
 ```
 
 该方法返回的是我们学校的学院列表 返回类型为ArrayList 
 
 ```java
-public static Map<String, ArrayList> getClassList(String ClassID) throws IOException
+public static Map<String, ArrayList> getStudentList(String ClassID) throws IOException
 ```
 
 该方法返回的是某个班级的所有学生信息,所需传入的参数为班级号,例如"01011601",然后返回值为一个包含了该班所有学生信息的HashMap,其中键为学生名字,值为一个包含了该学生所有信息的ArrayList

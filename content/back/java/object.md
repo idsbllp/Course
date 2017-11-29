@@ -508,7 +508,7 @@ private    ∨   ×   ×     ×
 
       ​
 
-    - 实质：![image](https://github.com/RedrockTeam/Course/raw/master/content/back/image/refence.png)
+    - 实质：![image](https://github.com/RedrockTeam/Course/raw/master/content/back/java/image/refence.png)
 
 
 ------
@@ -1382,6 +1382,3 @@ final
     ```
 
     ​
-
-
-

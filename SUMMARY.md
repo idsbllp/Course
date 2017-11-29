@@ -18,19 +18,17 @@
     - [DOM&BOM](content/front/DOM&BOM/Class4.md)
     - [基本类型与引用类型，函数，作用域链](content/front/class of kjj/kjj.md)
     - [ES5复习](content/front/review/index.md)
-
-
 - [后端](content/back/index.md)
   - [Java]()
     - [java语法基础](content/back/java/Basic.md)
-
     - [流程控制](content/back/java/ProcessControl.md)
-
     - [面向对象](content/back/java/object.md)
-    - [容器](content/back/java/CollectionAndMap.md)​
+    - [容器](content/back/java/CollectionAndMap.md)
+  - [MySQL]()
+    - [安装](content/back/mysql/install.md)  ​
 - 作业
   - 小作业
-    - [第三次课作业](content/homework/thirdHomework.md)
+    - [第三次课作业](content/homework/ThirdHomework.md)
     - [第四次课作业](content/homework/FouthHomework.md)
   - 大作业
     - [前端大作业](content/front/greatAssignment/greatAssignment.md)
