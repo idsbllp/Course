@@ -32,6 +32,7 @@
     - [第三次课作业](content/homework/ThirdHomework.md)
     - [第四次课作业](content/homework/FouthHomework.md)
     - [第五次课作业](content/homework/FifthHomework.md)
+    - [第六次课作业](content/homework/SixthHomework.md)
   - 大作业
     - [前端大作业](content/front/greatAssignment/greatAssignment.md)
     - [后端大作业](content/back/greatAssignment/greatAssignment.md)
