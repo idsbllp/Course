@@ -130,15 +130,15 @@ public class MySQL {
 ```
 
 
-  [1]: ../image/chat1.png
-  [2]: ../image/chat2.png
-  [3]: ../image/role1.png
-  [4]: ../image/role2.png
-  [5]: ../image/role3.png
-  [6]: ../image/class-rank.png
-  [7]: ../image/person-rank.png
-  [8]: ../image/number.png
-  [9]: ../image/time.png
-  [10]: ../image/string.png      
+  [1]: ./image/chat1.png
+  [2]: ./image/chat2.png
+  [3]: ./image/role1.png
+  [4]: ./image/role2.png
+  [5]: ./image/role3.png
+  [6]: ./image/class-rank.png
+  [7]: ./image/person-rank.png
+  [8]: ./image/number.png
+  [9]: ./image/time.png
+  [10]: ./image/string.png      
   [11]: https://www.zhihu.com/question/24696366
-  [12]: ../back_demo/tree/sql.html
+  [12]: ./back_demo/tree/sql.html
