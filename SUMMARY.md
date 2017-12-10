@@ -27,7 +27,7 @@
     - [容器](content/back/java/CollectionAndMap.md)
   - [MySQL]()
     - [安装](content/back/mysql/install.md)  ​
-    - [安装](content/back/mysql/basics.md)
+    - [基础](content/back/mysql/basics.md)
 - 作业
   - 小作业
     - [第三次课作业](content/homework/ThirdHomework.md)
