@@ -1,0 +1,282 @@
+{
+    "name" : "数据库基础知识",
+    "children" : [
+        {
+            "name" : "1-运算符",
+            "children" : [
+                {
+                    "name" : "1.算术运算符: 加+、减-、乘*、除/、求余%"
+                },
+                {
+                    "name" : "2.比较运算符",
+                    "children" : [
+                        {
+                            "name" : "1.等于 =  安全的等于 <=>"
+                        },
+                        {
+                            "name" : "2.不等于 <> 或者 !="
+                        },
+                        {
+                            "name" : "3.小于等于 <= 大于等于 >= 大于 > 小于 <"
+                        },
+                        {
+                            "name" : "4.是否为null: is null, 是否不为null: is not null"
+                        },
+                        {
+                            "name" : "5.有多个参数时返回最大值: greatest, 返回最小值least"
+                        },
+                        {
+                            "name" : "6.判断一个值是否在两者之间: between and"
+                        },
+                        {
+                            "name" : "7.判断一个值是否在某个范围内: in, 不再某个范围内: not in"
+                        },
+                        {
+                            "name" : "8.通配符匹配: like"
+                        },
+                        {
+                            "name" : "9.正则表达式匹配: regex"
+                        }
+                    ]
+                },
+                {
+                    "name" : "3.逻辑运算符",
+                    "children" : [
+                        {
+                            "name" : "非: not 或 !"
+                        },
+                        {
+                            "name" : "与: and 或 &&"
+                        },
+                        {
+                            "name" : "异或: xor"
+                        }
+                    ]
+                },
+                {
+                    "name" : "4.位操作运算符"
+                }
+            ]
+        },
+        {
+            "name" : "2-函数",
+            "children" : [
+                {
+                    "name" : "1.数学函数"
+                },
+                {
+                    "name" : "2.字符串函数",
+                    "children" : [
+                        {
+                            "name" : "计算字符串字符数 和 字符串长度的函数 char_length(str) 和 length(str)"
+                        },
+                        {
+                            "name" : "合并字符串函数 contact(str1, str2, ...) 以某分隔符连接字符串 contact(x, str1, str2, ...)"
+                        },
+                        {
+                            "name" : "替换字符串的函数 insert(str1, start, len, str2)"
+                        },
+                        {
+                            "name" : "字母小写转换函数 lower(str) 或者 lcase(str), 字母大写转换函数 upper(str) 或者 ucase(str)"
+                        },
+                        {
+                            "name" : "返回字符串左边的字符 left(str, len), 返回字符串右边的字符 right(str, len)"
+                        },
+                        {
+                            "name" : "填充字符串的函数 lpad(str1, len, str2), rpad(str1, len, str2)"
+                        },
+                        {
+                            "name" : "删除空格的函数 ltrim(str) rtrim(str) trim(str), 删除指定字符串的函数 trim(str1 from str2)"
+                        },
+                        {
+                            "name" : "重复生成字符串的函数 repeat(str, n)"
+                        },
+                        {
+                            "name" : "空格函数space(n) 和 替换函数 replace(str, str1, str2)"
+                        },
+                        {
+                            "name" : "比较字符串大小的函数 strcmp(str1, str2)"
+                        },
+                        {
+                            "name" : "获取字串的函数 substring(str, start, len)"
+                        },
+                        {
+                            "name" : "匹配字符串开始位置的函数 locate(str1, str) 或 position(str1 in str) 或 instr(str, str1)"
+                        },
+                        {
+                            "name" : "字符串逆序 reverse(str)"
+                        },
+                        {
+                            "name" : "返回指定位置字符串的函数 elt(n, str1, str2, ...)"
+                        },
+                        {
+                            "name" : "返回指定字符串位置的函数 field(str, str1, str2, ...)"
+                        },
+                        {
+                            "name" : "返回字串位置的函数 find_in_set(str1, str2)"
+                        }
+                    ]
+                },
+                {
+                    "name" : "3.日期和时间函数, 获取当前时间 now()"
+                },
+                {
+                    "name" : "4.条件判断函数"
+                },
+                {
+                    "name" : "5.系统信息函数"
+                },
+                {
+                    "name" : "6.加密函数",
+                    "children" : [
+                        {
+                            "name" : "password()"
+                        },
+                        {
+                            "name" : "md5()"
+                        },
+                        {
+                            "name" : "encode(str, pswd_str)"
+                        },
+                        {
+                            "name" : "解密函数 decode(crypt_str, pswd_str)"
+                        }
+                    ]
+                },
+                {
+                    "name" : "7.其他函数"
+                }
+            ]
+        },
+        {
+            "name" : "3-查询数据",
+            "children" : [
+                {
+                    "name" : "1.基本查询语句",
+                    "children" : [
+                        {
+                            "name" : "查询字段"
+                        },
+                        {
+                            "name" : "from"
+                        },
+                        {
+                            "name" : "where 条件子句"
+                        },
+                        {
+                            "name" : "group by 分组"
+                        },
+                        {
+                            "name" : "order by 排序"
+                        },
+                        {
+                            "name" : "limit 限制条数"
+                        }
+                    ]
+                },
+                {
+                    "name" : "2.单表查询",
+                    "children" : [
+                        {
+                            "name" : "1.查询所有 或者 特定字段"
+                        },
+                        {
+                            "name" : "2.范围查询 in 或者 between and 或者 like 模糊查询"
+                        },
+                        {
+                            "name" : "3.空值处理 is null 或者 is not null"
+                        },
+                        {
+                            "name" : "4.多条件查询 or 或者 and 或者 两者混用"
+                        },
+                        {
+                            "name" : "5.对查询结果排序, 单列排序、 多列排序、 指定方向排序"
+                        },
+                        {
+                            "name" : "6.分组查询, 创建分组 group by、 分组过滤 having、在分组中使用聚集函数结果 group by field with rollup、 多字段分组"
+                        },
+                        {
+                            "name" : "7.使用limit 限制查询结果的数量"
+                        }
+                    ]   
+                },
+                {
+                    "name" : "3.使用聚集函数查询",
+                    "children" : [
+                        {
+                            "name" : "计数，忽略空值 count(*)、 不忽略空值 count(field)"
+                        },
+                        {
+                            "name" : "求和函数 sum(field)"
+                        },
+                        {
+                            "name" : "平均函数 avg()"
+                        },
+                        {
+                            "name" : "最值函数 min() max()"
+                        }
+                    ]
+                },
+                {
+                    "name" : "4.连接查询",
+                    "children" : [
+                        {
+                            "name" : "内连接查询，inner join 或者 where 条件句 使用比较运算符尽心表间数据的比较操作，返回与连接条件相匹配的数据项"
+                        },
+                        {
+                            "name" : "外连接查询，左连接 右连接" 
+                        }
+                    ]
+                },
+                {
+                    "name" : "5.子查询",
+                    "children" : [
+                        {
+                            "name" : "特称量词 any some，全称量词 all"
+                        },
+                        {
+                            "name" : "存在量词 exists"
+                        }
+                    ]
+                },
+                {
+                    "name" : "6.合并查询结果"
+                },
+                {
+                    "name" : "7.为表和字段取别名"
+                },
+                {
+                    "name" : "8.使用正则表达式查询"
+                }
+            ]
+        },
+        {
+            "name" : "4-插入更新和删除数据",
+            "children" : [
+                {
+                    "name" : "插入数据",
+                    "children" : [
+                        {
+                            "name" : "1.为表的所有字段插入数据"
+                        },
+                        {
+                            "name" : "2.为表的指定字段插入数据"
+                        },
+                        {
+                            "name" : "3.同时插入多条数据"
+                        },
+                        {
+                            "name" : "4.将查询结果插入到表中"
+                        }
+                    ]
+                },
+                {
+                    "name" : "更新数据"
+                },
+                {
+                    "name" : "删除数据"
+                }
+            ]
+        }
+    ]
+}
