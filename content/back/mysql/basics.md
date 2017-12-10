@@ -22,7 +22,7 @@
 
 ![QQ主要业务][3]
 
-![部分业务权限][4]
+![部分业务权限][4]![部分业务权限][13]
 
 ![rbac说明][5]
 
@@ -132,7 +132,8 @@ public class MySQL {
   [2]: ./image/chat2.png
   [3]: ./image/role1.png
   [4]: ./image/role2.png
-  [5]: ./image/role3.png
+  [13]: ./image/role3.png
+  [5]: ./image/rbac.png
   [6]: ./image/class-rank.png
   [7]: ./image/person-rank.png
   [8]: ./image/number.png
