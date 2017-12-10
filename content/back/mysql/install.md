@@ -7,8 +7,8 @@ MySQL进入5.7.7版本以后，压缩包安装需要注意一些地方:
 
 1. 相比较于之前版本，压缩包中没有data文件夹，这里是MySQL的配置数据，在5.7.7版本后，通过初始化命令生成data文件夹，无需手动创建。
 2. 相比较于之前版本，需要添加my.ini文件，这个文件写的是MySQL配置，以下是我的MySQL配置文件。(下面是my.ini文件)
-		`
-		
+
+```
 		[mysqld]
 		port=3306
 		basedir="E:/Tools/mysql-5.7.19-winx64"#此处是MySQL解压缩后的文件夹路径
@@ -24,7 +24,8 @@ MySQL进入5.7.7版本以后，压缩包安装需要注意一些地方:
 		default-character-set=utf8
 		[mysql]
 		default-character-set=utf8
-		`
+```
+		
 3. 解压后没有文件夹data，并将my.ini文件放入解压后的文件夹，如图
 ![](https://github.com/RedrockTeam/Course/raw/master/content/back/mysql/image/8.png)
 
