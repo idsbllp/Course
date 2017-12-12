@@ -21,9 +21,9 @@
 
      - 首先,我们要先新建一个Project
 
-       ![新建一个工程](/image/1.png)
+       ![新建工程][1]
 
-       ![新建java web工程](/image/2.png)
+       ![新建java web工程][2]
 
        往下输入名字然后next就创建成功了
 
@@ -31,15 +31,15 @@
 
        首先,点开如图所示的Edit Configurations
 
-       ![配置Tomcat-1](/image/3.png)
+        ![配置Tomcat-1][3]
 
        然后,添加Tomcat server,如图
 
-       ![配置Tomcat-2](/image/4.png)
+        ![配置Tomcat-2][4]
 
        接下来就是对其做配置
 
-       ![Tomcat-3](/image/5.png)
+        ![Tomcat-3][5]
 
        如果在执行时遇到port相关的报错,可以尝试把HTTP port改成其他的比如8081等
 
@@ -62,9 +62,9 @@
     4. 服务器发送回复内容给客户浏览
     5. 在长时间没有被调用或者服务器被关闭的时候,会调用destroy()方法销毁Servlet对象
 
-     ![处理流程1](/image/6.png)
+     ![处理流程1][6]
 
-    ![处理流程2](/image/7.png)
+    ![处理流程2][7]
 
 - Servlet的配置
 
@@ -91,7 +91,7 @@
 
     只需要在Servlet的类上面加@WebServlet(name="servlet的名字" , value="指定servlet相对于应用目录的路径")就可以包含上面的操作了,如图
 
-    ![](/image/8.png)
+    ![][8]
 
     当然,web.xml还有其他的作用,以上操作只是简化了关于servlet的一些设置
 
@@ -271,4 +271,17 @@
 
       7. 等等......
 
-  在[这里](../back_demo/twelfth_demo/servlet.zip)有一个完整的登陆注册代码,可以参照.里面包含了分层,MVC的成分,可以结合书上的例子学习下.
+  ​
+
+
+
+
+
+[1]: ./image/1.png
+[2]: ./image/2.png
+[3]: ./image/3.png
+[4]: ./image/4.png
+[5]: ./image/5.png
+[6]: ./image/6.png
+[7]: ./image/7.png
+[8]: ./image/8.png
