@@ -28,7 +28,7 @@
   - [MySQL]()
     - [安装](content/back/mysql/install.md)  
     - [基础](content/back/mysql/basics.md)
-  -  [Servlet]()
+  - [Servlet]()
     - [配置与基础](content/back/servlet/servlet.md)
 - 作业
   - 小作业
