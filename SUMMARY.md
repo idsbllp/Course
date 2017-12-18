@@ -19,6 +19,7 @@
     - [基本类型与引用类型，函数，作用域链](content/front/class of kjj/kjj.md)
     - [ES5复习](content/front/review/index.md)
     - [DOM事件,HTTP和Ajax](content/front/js/DOM事件,HTTP和Ajax.md)
+    - [数组与字符串](content/front/class_zxy/little.md)
 - [后端](content/back/index.md)
   - [Java]()
     - [java语法基础](content/back/java/Basic.md)
