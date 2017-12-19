@@ -17,7 +17,7 @@
 	- [json解析与生成](http://www.jianshu.com/p/2e2c7bcbdb8c)
 	- [ics格式说明](http://www.chinadmd.com/file/pepoacae3uzxwozsartrxsaa_1.html)
 	- [ics文件示例](https://wx.idsbllp.cn/api/kebiao_ics?xh=2015211535)
-	- [小帮手课表页面](https://wx.idsbllp.cn/api/kebiao_ics?xh=2015211535)
+	- [小帮手课表页面](https://wx.idsbllp.cn/MagicLoop/index.php?s=/addon/CourseTable/CourseTable/index/openid/ouRCyjndQXTkjgtAuzUG4F3MZNa8/token/gh_68f0a1ffc303)
 	- [聚合api](https://www.juhe.cn/)
 	- [postman使用](http://blog.csdn.net/u013613428/article/details/51557804)
 
