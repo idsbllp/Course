@@ -15,11 +15,13 @@
 	- 掌握常用数据格式的解析生产，目前是json，后面还会有xml
 	- 了解文件格式的概念
 
+在本周六二十四点前把作业 GitHub 地址发邮件到 `jiangtianxing@redrock.team`	
+
 + iPhone、Mac订阅
 	- 订阅
-	![日历订阅][./image/dingyue.jpg]
+ ![日历订阅][1]
 	- 效果
-	![日历效果][./image/xiaoguo.jpg]
+ ![日历效果][2]
 
 ## 前端作业
 
@@ -30,3 +32,6 @@
 
 
 在本周五二十四点之前把作业 GitHub 地址发邮件到 `liliping@redrock.team`
+
+[1]: ./image/dingyue.jpg
+[2]: ./image/xiaoguo.jpg
