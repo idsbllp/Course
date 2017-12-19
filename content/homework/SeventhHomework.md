@@ -1,5 +1,16 @@
 # 第七次上课作业
 
+## 前端作业
+
++ 用原生 JS 实现 ES5 的数组方法: map, reduce, forEach, some, filter
+    - 可参考 [MDN Polyfill](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#%E5%85%BC%E5%AE%B9%E6%97%A7%E7%8E%AF%E5%A2%83%EF%BC%88Polyfill%EF%BC%89)
++ 并自己写数组测试
++ 自己理解和记住数组和字符串的常用方法
+
+
+在本周五二十四点之前把作业 GitHub 地址发邮件到 `liliping@redrock.team`
+
+
 ## 后端作业
 
 + 利用小帮手课表功能获取json返回格式的课表接口，对json格式数据进行解析以转化为ics日历格式，并通过servlet与natapp提供链接以供iPhone与mac用户日历订阅
@@ -22,16 +33,7 @@
  ![日历订阅][1]
 	- 效果
  ![日历效果][2]
-
-## 前端作业
-
-+ 用原生 JS 实现 ES5 的数组方法: map, reduce, forEach, some, filter
-    - 可参考 [MDN Polyfill](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#%E5%85%BC%E5%AE%B9%E6%97%A7%E7%8E%AF%E5%A2%83%EF%BC%88Polyfill%EF%BC%89)
-+ 并自己写数组测试
-+ 自己理解和记住数组和字符串的常用方法
-
-
-在本周五二十四点之前把作业 GitHub 地址发邮件到 `liliping@redrock.team`
-
+ 
 [1]: ./image/dingyue.jpg
 [2]: ./image/xiaoguo.jpg
+
