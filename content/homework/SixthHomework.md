@@ -25,5 +25,5 @@
 
 在本周五二十四点之前把作业GitHub地址发邮件到 lushuai@redrock.team
 
- [1]: ../back_demo/fourteenth/code
- [2]: ../back_demo/fourteenth/code.zip
+ [1]: ../back/back_demo/fourteenth/code
+ [2]: ../back/back_demo/fourteenth/code.zip
