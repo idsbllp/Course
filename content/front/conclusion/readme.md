@@ -121,4 +121,5 @@
 
 ### 代码在 [GitHub](https://github.com/RedrockTeam/Course/tree/master/content/front/conclusion)
 
+### 本次没有作业，好好复习，別挂课
 
