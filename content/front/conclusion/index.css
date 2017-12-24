@@ -1,0 +1,55 @@
+/*div[name="index"]:before {
+    content: 'content before header';
+
+    color: red;
+}
+
+*/
+
+.container .block .asdd {
+    position: relative;
+    width: 50px;
+    height: 20px;
+    /*text-align: center;
+    line-height: 200px;*/
+    background-color: #ccc;
+
+    /* 文字溢出三个点 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.block {
+    /* 居中 */
+    /*position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;*/
+    background-color: blue;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid red;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+.round {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    /*border-radius: 50%;*/
+    border-radius: 20px;
+}
+
+
+
+
+

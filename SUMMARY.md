@@ -20,6 +20,7 @@
     - [ES5复习](content/front/review/index.md)
     - [DOM事件,HTTP和Ajax](content/front/js/DOM事件,HTTP和Ajax.md)
     - [数组与字符串](content/front/class_zxy/little.md)
+  - [总结](content/front/conclusion/readme.md)
 - [后端](content/back/index.md)
   - [Java]()
     - [java语法基础](content/back/java/Basic.md)
