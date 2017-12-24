@@ -119,7 +119,6 @@
 
 ### ES6 (自学)
 
-
-### 代码在 [GitHub](https://github.com/redrockTeam/course/blob/master/content/conclusion)
+### 代码在 [GitHub](https://github.com/RedrockTeam/Course/tree/master/content/front/conclusion)
 
 
