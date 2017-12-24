@@ -2,9 +2,12 @@
 
 ## 后端作业
 
-- 将硬盘随便一个分区里面的所有文件的基本信息(文件名、文件类型<文件夹、一般文件>、最后修改时间、是否可执行、绝对路径)存入数据库中
-- 写一个简单的网页，在 form 表单中输入文件名 或 部分文件名能够查询到符合条件的所有文件基本信息
-
++ 作业说明:
+ 	- 将硬盘随便一个分区里面的所有文件的基本信息(文件名、文件类型<文件夹、一般文件>、最后修改时间、是否可执行、绝对路径)存入数据库中
+	- 写一个简单的网页，在 form 表单中输入文件名 或 部分文件名能够查询到符合条件的所有文件基本信息
++ 附件:
+	- [作业代码][1]
+	- [代码下载][2]
 作业本周六二十四点之前把github地址、姓名发邮件到 jiangtianxing@redrock.team
 
 
@@ -21,3 +24,6 @@
     * 进阶二：不能让DIV的拖拽移动超出浏览器的可视范围
 
 在本周五二十四点之前把作业GitHub地址发邮件到 lushuai@redrock.team
+
+ [1]: https://github.com/RedrockTeam/Course/tree/master/content/back/back_demo/fourteenth/code
+ [2]: https://github.com/RedrockTeam/Course/tree/master/content/back/back_demo/fourteenth/code.zip
