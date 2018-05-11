@@ -28,8 +28,6 @@ myRoll.callName('9')
 myRoll.getBlackList(); // ['9']
 
 
-
-
 // Ajax
 
 var xhr = new XMLHttpRequest();
